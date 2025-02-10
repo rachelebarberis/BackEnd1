@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace BackEnd1
+﻿namespace BackEnd1
 {
-    internal class Dipendente
+    public class Dipendente
     {
+        public required string Nome { get; set; }
+        public required string Cognome { get; set; }
+        public required string Azienda { get; set; }
     }
 }

@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 
 namespace BackEnd1
 {
-    internal class Veicolo
+    public class Veicolo
     {
+        public required string Modello {  get; set; }
+        public required string Marca { get; set; }
+        public required string Anno{ get; set; }
     }
 }
